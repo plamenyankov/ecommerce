@@ -546,16 +546,26 @@ header a:link, header a:visited {
 /*---- pagination ---- */
 
 #pagination {
+    display: block;
     height: 50px;
     line-height: 50px;
-    margin-left: 230px;
+    margin: 20px auto;
+    text-align: center;
 }
 
 #pagination a:link, #pagination a:visited {
     color: #5daad0;
     text-decoration: none;
 }
+.pagination{
 
+    text-decoration: none;
+    list-style: none;
+}
+.pagination li{
+    display: inline;
+    margin: 0 10px;
+}
 /* ============================================================================
    Product Page
    ============================================================================ */

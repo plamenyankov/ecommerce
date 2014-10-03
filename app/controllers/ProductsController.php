@@ -4,6 +4,7 @@ class ProductsController extends \BaseController {
 
     function __construct()
     {
+        parent::__construct();
         $this->beforeFilter('csfr',['on'=>'post']);
     }
     /**

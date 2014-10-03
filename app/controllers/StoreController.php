@@ -4,6 +4,7 @@ class StoreController extends \BaseController {
 
     function __construct()
     {
+        parent::__construct();
         $this->beforeFilter('csfr',['on'=>'post']);
     }
 
@@ -17,7 +18,17 @@ class StoreController extends \BaseController {
 	{
 		return View::make('store.index')->with('products', Product::take(12)->orderBy('created_at', 'DESC')->get());
 	}
-
+    public function showByCategory($id){
+            return View::make('store.category')
+                ->with('products',Product::where('category_id','=',$id)->paginate(6))
+                ->with('category',Category::find($id));
+    }
+    public function search(){
+        $key = Input::get('keyword');
+        return View::make('store.search')
+            ->with('products',Product::where('title','LIKE','%'.$key.'%')->get())
+            ->with('keyword',$key);
+    }
 	/**
 	 * Show the form for creating a new resource.
 	 * GET /store/create

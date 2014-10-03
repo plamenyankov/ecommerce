@@ -13,6 +13,8 @@
 //
 Route::get('/', 'StoreController@index');
 Route::get('/{id}', 'StoreController@show');
+Route::get('/categories/{id}', 'StoreController@showByCategory');
+Route::get('/store/search', 'StoreController@search');
 
 //Category Admin
 Route::get('/admin/category', 'CategoriesController@index');

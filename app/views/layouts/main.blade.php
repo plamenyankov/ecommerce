@@ -39,20 +39,20 @@
                     <li>
                         <a href="#">Shop by Category {{ HTML::image('/img/down-arrow.gif','Shop by Category') }}</a>
                         <ul>
-                            <li><a href="#">Laptops</a></li>
-                            <li><a href="#">Desktop PC</a></li>
-                            <li><a href="#">Smartphones</a></li>
-                            <li><a href="#">Tablets</a></li>
+                            @foreach($catnav as $cat)
+                            <li><a href="/categories/{{$cat->id}}">{{$cat->name}}</a></li>
+                           @endforeach
                         </ul>
                     </li>
                 </ul>
             </nav>
 
             <div id="search-form">
-                <form action="#" method="get">
-                    <input type="search" name="search" placeholder="Search by keyword" class="search">
-                    <input type="submit" value="Search" class="search submit">
-                </form>
+                {{Form::open(['url'=>'store/search','method'=>'get'])}}
+                {{Form::text('keyword',null,['placeholder'=>'Search by keyword','class'=>'search'])}}
+                {{Form::submit('Search',['class'=>'search submit'])}}
+                {{Form::close()}}
+
             </div><!-- end search-form -->
 
             <div id="user-menu">
@@ -92,6 +92,7 @@
         </section><!-- end action-bar -->
     </header>
 @yield('promo')
+@yield('search-keyword')
     <hr />
     @if(Session::has('message'))
     <div class="alert">{{Session::get('message')}}</div>
@@ -103,6 +104,8 @@
 
     <hr />
 
+
+    @yield('pagination')
     <footer>
         <section id="contact">
             <h3>For phone orders please call 1-800-000. You<br>can also email us at <a href="mailto:office@shop.com">office@shop.com</a></h3>
