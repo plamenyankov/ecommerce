@@ -1,8 +1,13 @@
 <?php
 
 class StoreController extends \BaseController {
+public function __construct()
+{
+    parent::__construct();
+    $this->beforeFilter('auth',['only'=>['postAddtocart','getCart','getRemoveitem']]);
+}
 
-        /**
+    /**
 	 * Display a listing of the resource.
 	 * GET /store
 	 *
@@ -22,6 +27,10 @@ class StoreController extends \BaseController {
         return View::make('store.search')
             ->with('products',Product::where('title','LIKE','%'.$key.'%')->get())
             ->with('keyword',$key);
+    }
+    public function postAddtocart(){
+        $product = Product::find(Input::get('id'));
+        $qty = Input::get('qty');
     }
 	/**
 	 * Show the form for creating a new resource.
