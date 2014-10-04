@@ -1,11 +1,7 @@
 <?php
 
 class CategoriesController extends \BaseController {
-    function __construct()
-    {
-        parent::__construct();
-        $this->beforeFilter('csfr',['on'=>'post']);
-    }
+
 
     /**
      * Display a listing of the resource.

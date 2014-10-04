@@ -125,7 +125,8 @@ return array(
         'Laracasts\Commander\CommanderServiceProvider',
         'Laracasts\Validation\ValidationServiceProvider',
         'Laracasts\Flash\FlashServiceProvider',
-        'Intervention\Image\ImageServiceProvider'
+        'Intervention\Image\ImageServiceProvider',
+        'Moltin\Cart\CartServiceProvider'
 	),
 
 	/*
@@ -193,8 +194,8 @@ return array(
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
         'Flash'           => 'Laracasts\Flash\Flash',
-        'Image'     => 'Intervention\Image\Facades\Image',
-
+        'Image'           => 'Intervention\Image\Facades\Image',
+        'Cart'            =>   'Moltin\Cart\Facade',
 	),
 
 );

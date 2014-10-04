@@ -17,7 +17,6 @@
      "way/generators": "~2.0",
     "fzaninotto/faker": "dev-master",
     "laracasts/testdummy":"~1.0"
-
 },
 	"autoload": {
 		"classmap": [
