@@ -7,7 +7,7 @@ class UsersTableSeeder extends Seeder {
 
 	public function run()
 	{
-        User::truncate();
+
 		$faker = Faker::create();
         $faker->seed(1234);
         User::create([

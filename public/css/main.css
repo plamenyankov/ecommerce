@@ -159,8 +159,8 @@ header a:link, header a:visited {
     font-size: 20px;
 }
 #logo img{
-    margin-top: -35px;
-    height: 90px;
+    margin-top: -9px;
+    height: 40px;
 }
 /* --- action-bar (dropdown) ---- */
 
@@ -1036,7 +1036,7 @@ footer #connect ul li.fb {
     top: 10px;
 }
 
-.cart-btn {
+ button.cart-btn {
     padding: 10px 10px 10px 0;
     background-color: #5daad0;
     border-radius: 5px;
@@ -1045,12 +1045,12 @@ footer #connect ul li.fb {
 }
 
 /* IE7 Button Padding Fix */
-.lt-ie8 .cart-btn {
+.lt-ie8 button.cart-btn {
     display: inline-block;
     padding-bottom: 5px;
 }
 
-.cart-btn .price {
+button.cart-btn .price {
     background-color: #2e373f;
     padding: 10px;
     border-top-left-radius: 5px;
@@ -1061,7 +1061,7 @@ footer #connect ul li.fb {
     -webkit-border-bottom-left-radius: 5px;
 }
 
-.cart-btn:link, .cart-btn:visited {
+button.cart-btn, button.cart-btn {
     text-decoration: none;
     color: #fff;
     font-size: 12px;
@@ -1304,4 +1304,7 @@ footer #connect ul li.fb {
     padding: 0.77778rem 1.33333rem 0.77778rem 0.77778rem;
     font-size: 0.72222rem;
     transition: opacity 300ms ease-out;
+}
+.wish-btn{
+
 }

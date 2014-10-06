@@ -10,15 +10,15 @@
 
     <hr />
 
-    <form action="#" method="post">
-        <label for="qty">Qty:</label>
-        <input type="text" id="qty" name="qty" value="1" maxlength="2">
-
+    {{Form::open(['url'=>'store/addtocart'])}}
+    {{Form::label('quantity','Qty')}}
+    {{Form::text('quantity',1,['maxlength'=>2])}}
+    {{Form::hidden('id',$product->id)}}
         <button type="submit" class="secondary-cart-btn">
             <img src="img/white-cart.gif" alt="Add to Cart" />
             ADD TO CART
         </button>
-    </form>
+ {{Form::close()}}
     <p>
         <a href="#"><img src="img/wish.gif" alt="Add to Wishlist" /> Add to Wishlist</a>
     </p>

@@ -11,7 +11,7 @@ settings:
 modules:
     config:
         Db:
-            dsn: 'mysql:localhost;dbname=ecomm'
+            dsn: 'mysql:host=localhost;dbname=ecomm_test'
             user: 'root'
             password: ''
             dump: tests/_data/dump.sql

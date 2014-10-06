@@ -56,13 +56,17 @@
             </span></h5>
 
         <p>
-            <a href="/{{$product->id}}" class="cart-btn">
+            {{Form::open(['url'=>'sore/addtocart'])}}
+            {{Form::hidden('quantity',1)}}
+            {{Form::hidden('id',$product->id)}}
+            <button class="cart-btn" type="submit">
                 <span class="price">{{$product->price}}</span>
                 {{HTML::image("img/white-cart.gif","Add to Cart")}}
-
                 ADD TO CART
-            </a>
+            </button>
+            {{Form::close()}}
         </p>
+
 
         <p class="wish">
             <a href="">

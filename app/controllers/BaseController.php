@@ -4,9 +4,9 @@ class BaseController extends Controller {
 
     public function __construct()
     {
-        $this->beforeFilter(function(){
+//        $this->beforeFilter(function(){
             View::share('catnav',Category::all());
-        });
+//        });
     }
 
     /**

@@ -37,7 +37,7 @@
         <!-- end top-area -->
         <section id="action-bar">
             <div id="logo">
-                <a href="/">{{HTML::image("img/logo.png",'logo')}}</a>
+                <a href="/">{{HTML::image("img/turtile_03.png",'logo')}}</a>
             </div>
             <!-- end logo -->
 
@@ -102,7 +102,7 @@
             <!-- end user-menu -->
 
             <div id="view-cart">
-                <a href="#">{{ HTML::image('/img/blue-cart.gif','view cart') }} View Cart</a>
+                <a href="/store/cart">{{ HTML::image('/img/blue-cart.gif','view cart') }} View Cart</a>
             </div>
             <!-- end view-cart -->
         </section>
@@ -141,7 +141,7 @@
                     <li><a href="/users/create">Sign Up</a></li>
                     <li><a href="#">Wishlist</a></li>
                     <li><a href="#">Order History</a></li>
-                    <li><a href="#">Shopping Cart</a></li>
+                    <li><a href="/store/cart">Shopping Cart</a></li>
                 </ul>
             </div>
             <!-- end my-account -->
@@ -157,7 +157,7 @@
                 <h4>EXTRAS</h4>
                 <ul>
                     <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li>{{HTML::link('/store/contact','Contact Us')}}</li>
                 </ul>
             </div>
             <!-- end extras -->

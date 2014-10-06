@@ -18,6 +18,9 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
         'password_confirmation'=>'required|between:4,10|alpha_num',
         'admin'=>'boolean'
     ];
+    public function wishlist(){
+        return $this->hasMany('Wishlist');
+    }
 	/**
 	 * The database table used by the model.
 	 *

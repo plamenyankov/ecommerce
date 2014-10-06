@@ -29,8 +29,38 @@ public function __construct()
             ->with('keyword',$key);
     }
     public function postAddtocart(){
+
         $product = Product::find(Input::get('id'));
-        $qty = Input::get('qty');
+        $qty = Input::get('quantity');
+        Cart::insert([
+            'id'=>$product->id,
+            'name'=>$product->title,
+            'price'=>$product->price,
+            'quantity'=>$qty,
+            'image'=>$product->image
+        ]);
+
+        return Redirect::to('store/cart');
+    }
+    public function getCart(){
+
+        return View::make('store.cart')
+            ->with('products',Cart::contents());
+    }
+    public function getRemoveitem($identifier){
+        $item = Cart::item($identifier);
+        $item->remove();
+        return Redirect::to('store/cart');
+    }
+    public function contact(){
+
+        return View::make('store.contact');
+    }
+    public function addToWishlist($id){
+        return 1;
+    }
+    public function removeFromWishlist($id){
+        return 1;
     }
 	/**
 	 * Show the form for creating a new resource.

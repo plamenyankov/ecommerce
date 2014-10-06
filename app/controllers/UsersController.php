@@ -59,7 +59,7 @@ class UsersController extends \BaseController {
                 ->with('message','Thank you for signing in!');
         }
         return Redirect::to('users/signin')
-            ->with('Your email/password combo was incorrect!');
+            ->with('message','Your email/password combo was incorrect!');
     }
     public function signOut(){
 

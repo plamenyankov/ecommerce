@@ -1,0 +1,8 @@
+User:
+ firstname: $string
+ lastname: $string
+ email: $string@example.com
+ password: $string
+ admin: $integer
+ created_at: $date
+ updated_at: $date

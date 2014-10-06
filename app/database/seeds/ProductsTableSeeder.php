@@ -9,14 +9,13 @@ class ProductsTableSeeder extends Seeder {
 	{
         Eloquent::unguard();
 		$faker = Faker::create();
-//        $faker->addProvider(new \Faker\Provider\Image($faker));
-//        $image = new Image();
-        Product::truncate();
+
+        $cat = Category::all();
 		foreach(range(1, 12) as $index)
 		{
 
 			Product::create([
-                'category_id'=>1,
+                'category_id'=>rand(1,2),
                 'title'=> $faker->name,
                 'description'=>$faker->sentence(10),
                 'price'=>$faker->randomNumber(3),

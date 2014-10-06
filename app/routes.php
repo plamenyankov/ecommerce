@@ -11,11 +11,18 @@
 |
 */
 //
+Route::get('wishlist','WishlistController@index');
+Route::get('/', function(){
+    $user = User::all();
+    return $user;
+});
 Route::get('/', 'StoreController@index');
 Route::get('/{id}', 'StoreController@show');
 Route::get('/categories/{id}', 'StoreController@showByCategory');
 Route::get('/store/search', 'StoreController@search');
-
+Route::post('/store/wishlist/{id}', 'StoreController@addToWishlist');
+Route::delete('/store/wishlist/{id}', 'StoreController@removeFromWishlist');
+//Wishlist
 //Users
 Route::get('/users/create','UsersController@create');
 Route::get('/users/signin','UsersController@signIn');
@@ -33,3 +40,9 @@ Route::get('/admin/products', 'ProductsController@index')->before('admin');
 Route::delete('/admin/products', 'ProductsController@destroy')->before('admin')->before('csrf');
 Route::post('/admin/products', 'ProductsController@create')->before('admin')->before('csrf');
 Route::post('/admin/products/toggle-availability', 'ProductsController@postToggleAvailability')->before('admin')->before('csrf');
+
+//Cart
+Route::post('store/addtocart','StoreController@postAddtocart');
+Route::get('store/removeitem/{id}','StoreController@getRemoveitem');
+Route::get('store/cart','StoreController@getCart');
+Route::get('/store/contact','StoreController@contact');

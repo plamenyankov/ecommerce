@@ -1,0 +1,1 @@
+C:\xampp\htdocs\www\ecommerce\app/views/store/wishlist.blade.php

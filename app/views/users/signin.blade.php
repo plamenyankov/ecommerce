@@ -13,7 +13,7 @@
             {{HTML::image("img/password.gif","Password")}}
             {{Form::password('password')}}
         </p>
-    {{Form::button('SIGN IN',['type'=>'submit','class'=>'secondary-cart-btn'])}}
+    {{Form::button('Login',['type'=>'submit','class'=>'secondary-cart-btn'])}}
     {{Form::close()}}
 </section><!-- end signin-form -->
 <section id="signup">
