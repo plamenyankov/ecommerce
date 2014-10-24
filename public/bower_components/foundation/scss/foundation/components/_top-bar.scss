@@ -6,14 +6,15 @@
 @import "grid";
 @import "buttons";
 @import "forms";
-
+$lightBG:#ebebeb;
+$textGrey:#909090;
 //
 // Top Bar Variables
 //
 $include-html-top-bar-classes: $include-html-classes !default;
 
 // Background color for the top bar
-$topbar-bg-color: $oil !default;
+$topbar-bg-color: $lightBG !default;
 $topbar-bg: $topbar-bg-color !default;
 
 // Height and margin
@@ -25,16 +26,16 @@ $topbar-title-weight: $font-weight-normal !default;
 $topbar-title-font-size: rem-calc(17) !default;
 
 // Style the top bar dropdown elements
-$topbar-dropdown-bg: $oil !default;
-$topbar-dropdown-link-color: $white !default;
-$topbar-dropdown-link-bg: $oil !default;
+$topbar-dropdown-bg: $lightBG !default;
+$topbar-dropdown-link-color: $textGrey !default;
+$topbar-dropdown-link-bg: $lightBG !default;
 $topbar-dropdown-link-weight: $font-weight-normal !default;
 $topbar-dropdown-toggle-size: 5px !default;
 $topbar-dropdown-toggle-color: $white !default;
 $topbar-dropdown-toggle-alpha: 0.4 !default;
 
 // Set the link colors and styles for top-level nav
-$topbar-link-color: $white !default;
+$topbar-link-color: $textGrey !default;
 $topbar-link-color-hover: $white !default;
 $topbar-link-color-active: $white !default;
 $topbar-link-color-active-hover: $white !default;
@@ -42,10 +43,10 @@ $topbar-link-weight: $font-weight-normal !default;
 $topbar-link-font-size: rem-calc(13) !default;
 $topbar-link-hover-lightness: -10% !default; // Darken by 10%
 $topbar-link-bg: $topbar-bg !default;
-$topbar-link-bg-hover: #272727 !default;
+$topbar-link-bg-hover: #d7d7d7 !default;;
 $topbar-link-bg-color-hover: $charcoal !default;
 $topbar-link-bg-active: $primary-color !default;
-$topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%) !default;
+$topbar-link-bg-active-hover: #d7d7d7 !default; //Change button bg
 $topbar-link-font-family: $body-font-family !default;
 $topbar-link-text-transform: none !default;
 $topbar-link-padding: $topbar-height / 3 !default;
@@ -526,7 +527,7 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
             & > a {
               padding-#{$opposite-direction}: $topbar-link-padding + $topbar-link-dropdown-padding !important;
               &:after {
-                @include css-triangle($topbar-dropdown-toggle-size, rgba($topbar-dropdown-toggle-color, $topbar-dropdown-toggle-alpha), top);
+                @include css-triangle($topbar-dropdown-toggle-size, rgba($textGrey, $topbar-dropdown-toggle-alpha), top);
                 margin-top: -($topbar-dropdown-toggle-size / 2);
                 top: $topbar-height / 2;
               }

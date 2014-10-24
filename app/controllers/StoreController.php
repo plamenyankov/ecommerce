@@ -15,7 +15,8 @@ public function __construct()
 	 */
 	public function index()
 	{
-		return View::make('store.index')->with('products', Product::take(12)->orderBy('created_at', 'DESC')->get());
+        return View::make('layouts.layout');
+//		return View::make('store.index')->with('products', Product::take(12)->orderBy('created_at', 'DESC')->get());
 	}
     public function showByCategory($id){
             return View::make('store.category')

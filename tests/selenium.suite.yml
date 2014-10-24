@@ -1,0 +1,13 @@
+class_name: SeleniumGuyTester
+modules:
+   enabled: [AcceptanceHelper, PhpBrowser, Laravel4, WebDriver, Asserts, Db]
+   config:
+           PhpBrowser:
+               url: 'http://localhost:8000'
+           WebDriver:
+                   url: 'http://localhost:8000'
+                   browser: firefox
+                   window_size: 1024x768
+                   wait: 10
+                   capabilities:
+                       unexpectedAlertBehaviour: 'accept'

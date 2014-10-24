@@ -254,12 +254,26 @@ header a:link, header a:visited {
 
 #action-bar #view-cart {
     float: left;
+    padding-right: 20px;
 }
 
 #action-bar #view-cart a:link, #action-bar #view-cart a:visited {
     color: #5daad0;
 }
+/* --- view-cart --- */
 
+#action-bar #wishlist {
+    float: left;
+    padding-left: 20px;
+    border-left: 1px dotted #aaa;
+}
+
+#action-bar #wishlist a:link, #action-bar #wishlist a:visited {
+    color: #5daad0;
+}
+.fa{
+    margin-right: 5px;
+}
 /* ============================================================================
    Promo
    ============================================================================ */

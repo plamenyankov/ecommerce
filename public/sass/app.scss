@@ -54,10 +54,4 @@
 // @import "foundation/components/tooltips";
 // @import "foundation/components/dropdown";
 
-.custom-class{
-  padding: 0;
-}
-
-.row-large {
-  @extend .row;
-}
+@import "home";

@@ -13,7 +13,7 @@
     <title>eCommerce</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
-
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     {{ HTML::style('css/normalize.css') }}
     {{ HTML::style('css/main.css') }}
@@ -44,7 +44,7 @@
             <nav class="dropdown">
                 <ul>
                     <li>
-                        <a href="#">Shop by Category {{ HTML::image('/img/down-arrow.gif','Shop by Category') }}</a>
+                        <a href="#">Shop by Category <i class="fa fa-caret-down"></i></a>
                         <ul>
                             @foreach($catnav as $cat)
                             <li><a href="/categories/{{$cat->id}}">{{$cat->name}}</a></li>
@@ -68,8 +68,8 @@
                 <nav class="dropdown">
                     <ul>
                         <li>
-                            <a href="#">{{HTML::image("img/user-icon.gif",Auth::user()->firstname)}} {{Auth::user()->firstname}}
-                                {{HTML::image('img/down-arrow.gif','Shop by Category')}}</a>
+                            <a class="username" href="#">{{HTML::image("img/user-icon.gif",Auth::user()->firstname)}} {{Auth::user()->firstname}}
+                                <i class="fa fa-caret-down"></i></a>
                             <ul>
                                 @if(Auth::user()->admin == 1)
                                 <li>{{HTML::link('/admin/category','Manage Categories')}}</li>
@@ -87,8 +87,8 @@
                     <ul>
                         <li>
                             <a href="#">
-                                {{ HTML::image('/img/down-arrow.gif','Sign In') }}
-                                Sign In {{ HTML::image('/img/user-icon.gif','Sign In') }}</a>
+                                <i class="fa fa-user"></i>
+                                Sign In <i class="fa fa-caret-down"></i></a>
                             <ul>
                                 <li><a href="/users/signin">Sign In</a></li>
                                 <li><a href="/users/create">Sign Up</a></li>
@@ -102,7 +102,10 @@
             <!-- end user-menu -->
 
             <div id="view-cart">
-                <a href="/store/cart">{{ HTML::image('/img/blue-cart.gif','view cart') }} View Cart</a>
+                <a href="/store/cart"><i class="fa fa-shopping-cart"></i> View Cart</a>
+            </div>
+            <div id="wishlist">
+                <a href="/wishlist"><i class="fa fa-heart"></i>Wishlist</a>
             </div>
             <!-- end view-cart -->
         </section>
