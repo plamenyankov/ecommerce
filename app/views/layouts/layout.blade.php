@@ -94,19 +94,20 @@
 <div class="row-offers">
 <div class="panel-offers column">
     <div class="medium-6 small-12 large-3 columns">
-        <div class="offer-detailed">Converse</div>
-        <div class="offer">
-            <div class="center offer-info-top">Converse Star</div>
+<div class="offer">
+            <div class="center offer-info-top">Macbook Pro</div>
             <div class="center offer-label">
                 <div class="left">-70%</div>
                 <div class="right-label">234лв</div>
             </div>
-            <div class="img-holder">{{HTML::image('img/product.gif','iphone')}}</div>
+            <div class="img-holder"><a href="#">{{HTML::image('img/product.gif','iphone')}}</a></div>
         </div>
-        <div class="offer-info-bt"><div class="left">
-        <a href="#"><i class="fa fi-shopping-cart size-16"></i></a>
-                <a href="#"><i class="fa fi-heart size-16"></i></a>
-                <a href="#"><i class="fa fi-eye large"></i></a>
+<div class="offer-info-bt"><div class="left">
+                <a href="#"><i class="fa fi-shopping-cart size-16"></i><span class="offer-shopping-info">(12)</span></a>
+                <a href="#"><i class="fa fi-heart size-16"></i><span class="offer-shopping-info">(48)</span></a>
+                <a href="#"><i class="fa fi-eye large"></i><span class="offer-shopping-info">(312)</span></a>
+                <span class="offer-rating"><i class="fi-star"></i><i class="fi-star"></i><i class="fi-star"></i><i
+                        class="fi-star"></i><i class="fi-star"></i></span><span class="offer-shopping-info">(98%)</span>
             </div><div class="right"><i class="fa fi-list"></i></div></div>
 <div class="additional-info">
     <ul class="adi-img">
@@ -115,22 +116,29 @@
         <li>{{HTML::image('img/product.gif','iphone')}}</li>
         <li>{{HTML::image('img/macbook.png','iphone')}}</li>
     </ul>
+    <div class="offer-text-desc">
+        <h4>MacBook Pro</h4>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aspernatur assumenda, corporis, dolor
+            dolore enim iste magni quas qui sapiente sed sint, unde! Blanditiis cum et molestias, nobis quibusdam vero.
+    </div>
+    <button class="alert tiny button">Виж Повече</button>
 </div>
     </div>
     <div class="medium-6 small-12 large-3 columns">
-        <div class="offer-detailed">Converse</div>
         <div class="offer">
-            <div class="center offer-info-top">Converse Star</div>
+            <div class="center offer-info-top">Macbook Pro</div>
             <div class="center offer-label">
                 <div class="left">-70%</div>
                 <div class="right-label">234лв</div>
             </div>
-            <div class="img-holder">{{HTML::image('img/product.gif','iphone')}}</div>
+            <div class="img-holder"><a href="#">{{HTML::image('img/product.gif','iphone')}}</a></div>
         </div>
         <div class="offer-info-bt"><div class="left">
-                <a href="#"><i class="fa fi-shopping-cart size-16"></i></a>
-                <a href="#"><i class="fa fi-heart size-16"></i></a>
-                <a href="#"><i class="fa fi-eye large"></i></a>
+                <a href="#"><i class="fa fi-shopping-cart size-16"></i><span class="offer-shopping-info">(12)</span></a>
+                <a href="#"><i class="fa fi-heart size-16"></i><span class="offer-shopping-info">(48)</span></a>
+                <a href="#"><i class="fa fi-eye large"></i><span class="offer-shopping-info">(312)</span></a>
+                <span class="offer-rating"><i class="fi-star"></i><i class="fi-star"></i><i class="fi-star"></i><i
+                        class="fi-star"></i><i class="fi-star"></i></span><span class="offer-shopping-info">(98%)</span>
             </div><div class="right"><i class="fa fi-list"></i></div></div>
         <div class="additional-info">
             <ul class="adi-img">
@@ -139,22 +147,29 @@
                 <li>{{HTML::image('img/product.gif','iphone')}}</li>
                 <li>{{HTML::image('img/macbook.png','iphone')}}</li>
             </ul>
+            <div class="offer-text-desc">
+                <h4>MacBook Pro</h4>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aspernatur assumenda, corporis, dolor
+                dolore enim iste magni quas qui sapiente sed sint, unde! Blanditiis cum et molestias, nobis quibusdam vero.
+            </div>
+            <button class="alert tiny button">Виж Повече</button>
         </div>
     </div>
     <div class="medium-6 small-12 large-3 columns">
-        <div class="offer-detailed">Converse</div>
         <div class="offer">
-            <div class="center offer-info-top">Converse Star</div>
+            <div class="center offer-info-top">Macbook Pro</div>
             <div class="center offer-label">
                 <div class="left">-70%</div>
                 <div class="right-label">234лв</div>
             </div>
-            <div class="img-holder">{{HTML::image('img/product.gif','iphone')}}</div>
+            <div class="img-holder"><a href="#">{{HTML::image('img/product.gif','iphone')}}</a></div>
         </div>
         <div class="offer-info-bt"><div class="left">
-                <a href="#"><i class="fa fi-shopping-cart size-16"></i></a>
-                <a href="#"><i class="fa fi-heart size-16"></i></a>
-                <a href="#"><i class="fa fi-eye large"></i></a>
+                <a href="#"><i class="fa fi-shopping-cart size-16"></i><span class="offer-shopping-info">(12)</span></a>
+                <a href="#"><i class="fa fi-heart size-16"></i><span class="offer-shopping-info">(48)</span></a>
+                <a href="#"><i class="fa fi-eye large"></i><span class="offer-shopping-info">(312)</span></a>
+                <span class="offer-rating"><i class="fi-star"></i><i class="fi-star"></i><i class="fi-star"></i><i
+                        class="fi-star"></i><i class="fi-star"></i></span><span class="offer-shopping-info">(98%)</span>
             </div><div class="right"><i class="fa fi-list"></i></div></div>
         <div class="additional-info">
             <ul class="adi-img">
@@ -163,22 +178,29 @@
                 <li>{{HTML::image('img/product.gif','iphone')}}</li>
                 <li>{{HTML::image('img/macbook.png','iphone')}}</li>
             </ul>
+            <div class="offer-text-desc">
+                <h4>MacBook Pro</h4>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aspernatur assumenda, corporis, dolor
+                dolore enim iste magni quas qui sapiente sed sint, unde! Blanditiis cum et molestias, nobis quibusdam vero.
+            </div>
+            <button class="alert tiny button">Виж Повече</button>
         </div>
     </div>
     <div class="medium-6 small-12 large-3 columns">
-        <div class="offer-detailed">Converse</div>
         <div class="offer">
-            <div class="center offer-info-top">Converse Star</div>
+            <div class="center offer-info-top">Macbook Pro</div>
             <div class="center offer-label">
                 <div class="left">-70%</div>
                 <div class="right-label">234лв</div>
             </div>
-            <div class="img-holder">{{HTML::image('img/product.gif','iphone')}}</div>
+            <div class="img-holder"><a href="#">{{HTML::image('img/product.gif','iphone')}}</a></div>
         </div>
         <div class="offer-info-bt"><div class="left">
-                <a href="#"><i class="fa fi-shopping-cart size-16"></i></a>
-                <a href="#"><i class="fa fi-heart size-16"></i></a>
-                <a href="#"><i class="fa fi-eye large"></i></a>
+                <a href="#"><i class="fa fi-shopping-cart size-16"></i><span class="offer-shopping-info">(12)</span></a>
+                <a href="#"><i class="fa fi-heart size-16"></i><span class="offer-shopping-info">(48)</span></a>
+                <a href="#"><i class="fa fi-eye large"></i><span class="offer-shopping-info">(312)</span></a>
+                <span class="offer-rating"><i class="fi-star"></i><i class="fi-star"></i><i class="fi-star"></i><i
+                        class="fi-star"></i><i class="fi-star"></i></span><span class="offer-shopping-info">(98%)</span>
             </div><div class="right"><i class="fa fi-list"></i></div></div>
         <div class="additional-info">
             <ul class="adi-img">
@@ -187,23 +209,145 @@
                 <li>{{HTML::image('img/product.gif','iphone')}}</li>
                 <li>{{HTML::image('img/macbook.png','iphone')}}</li>
             </ul>
+            <div class="offer-text-desc">
+                <h4>MacBook Pro</h4>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aspernatur assumenda, corporis, dolor
+                dolore enim iste magni quas qui sapiente sed sint, unde! Blanditiis cum et molestias, nobis quibusdam vero.
+            </div>
+            <button class="alert tiny button">Виж Повече</button>
         </div>
     </div>
-<!--    <div class="medium-4 small-12 large-2 columns"><div class="offer-special-btn">O</div><div class="offer"><div class="center offer-info-top">Converse Star</div><div class="center offer-label">-70%</div>{{HTML::image('img/product.gif','iphone')}}</div><div class="offer-info-bt"><div class="left"><a href="#"><i class="step fi-shopping-cart size-16"></i></a><a href="#"><i class=" fi-heart size-16"></i></a></div><div class="right">234 лв</div></div></div>-->
-<!--    <div class="medium-4 small-12 large-2 columns"><div class="offer-special-btn">O</div><div class="offer-detailed">Converse</div><div class="offer"><div class="center offer-info-top">Converse Star</div><div class="center offer-label">-70%</div>{{HTML::image('img/product.gif','iphone')}}</div><div class="offer-info-bt"><div class="left"><a href="#"><i class="step fi-shopping-cart size-16"></i></a><a href="#"><i class=" fi-heart size-16"></i></a></div><div class="right">234 лв</div></div></div>-->
 </div>
 </div>
 <div class="row">
-    <div class="small-text-center title-home-category column small-12">Оферти За Деня</div>
+    <div class="small-text-center title-home-category column small-12">Препоръчано За Вас</div>
 </div>
 <div class="row-offers">
     <div class="panel-offers column">
-        <div class="medium-4 small-12 large-2 columns"><div class="offer-special-btn">O</div><div class="offer"><div class="center offer-info-top">Converse Star</div><div class="center offer-label">-70%</div>{{HTML::image('img/product.gif','iphone')}}</div><div class="offer-info-bt"><div class="left"><a href="#"><i class="step fi-shopping-cart size-16"></i></a><a href="#"><i class=" fi-heart size-16"></i></a></div><div class="right">234 лв</div></div></div>
-        <div class="medium-4 small-12 large-2 columns"><div class="offer-special-btn">O</div><div class="offer"><div class="center offer-info-top">Converse Star</div><div class="center offer-label">-70%</div>{{HTML::image('img/product.gif','iphone')}}</div><div class="offer-info-bt"><div class="left"><a href="#"><i class="step fi-shopping-cart size-16"></i></a><a href="#"><i class=" fi-heart size-16"></i></a></div><div class="right">234 лв</div></div></div>
-        <div class="medium-4 small-12 large-2 columns"><div class="offer-special-btn">O</div><div class="offer"><div class="center offer-info-top">Converse Star</div><div class="center offer-label">-70%</div>{{HTML::image('img/product.gif','iphone')}}</div><div class="offer-info-bt"><div class="left"><a href="#"><i class="step fi-shopping-cart size-16"></i></a><a href="#"><i class=" fi-heart size-16"></i></a></div><div class="right">234 лв</div></div></div>
-        <div class="medium-4 small-12 large-2 columns"><div class="offer-special-btn">O</div><div class="offer"><div class="center offer-info-top">Converse Star</div><div class="center offer-label">-70%</div>{{HTML::image('img/product.gif','iphone')}}</div><div class="offer-info-bt"><div class="left"><a href="#"><i class="step fi-shopping-cart size-16"></i></a><a href="#"><i class=" fi-heart size-16"></i></a></div><div class="right">234 лв</div></div></div>
-        <div class="medium-4 small-12 large-2 columns"><div class="offer-special-btn">O</div><div class="offer"><div class="center offer-info-top">Converse Star</div><div class="center offer-label">-70%</div>{{HTML::image('img/product.gif','iphone')}}</div><div class="offer-info-bt"><div class="left"><a href="#"><i class="step fi-shopping-cart size-16"></i></a><a href="#"><i class=" fi-heart size-16"></i></a></div><div class="right">234 лв</div></div></div>
-        <div class="medium-4 small-12 large-2 columns"><div class="offer-special-btn">O</div><div class="offer"><div class="center offer-info-top">Converse Star</div><div class="center offer-label">-70%</div>{{HTML::image('img/product.gif','iphone')}}</div><div class="offer-info-bt"><div class="left"><a href="#"><i class="step fi-shopping-cart size-16"></i></a><a href="#"><i class=" fi-heart size-16"></i></a></div><div class="right">234 лв</div></div></div>
+        <div class="medium-6 small-12 large-3 columns">
+            <div class="offer">
+                <div class="center offer-info-top">Macbook Pro</div>
+                <div class="center offer-label">
+                    <div class="left">-70%</div>
+                    <div class="right-label">234лв</div>
+                </div>
+                <div class="img-holder"><a href="#">{{HTML::image('img/product.gif','iphone')}}</a></div>
+            </div>
+            <div class="offer-info-bt"><div class="left">
+                    <a href="#"><i class="fa fi-shopping-cart size-16"></i><span class="offer-shopping-info">(12)</span></a>
+                    <a href="#"><i class="fa fi-heart size-16"></i><span class="offer-shopping-info">(48)</span></a>
+                    <a href="#"><i class="fa fi-eye large"></i><span class="offer-shopping-info">(312)</span></a>
+                <span class="offer-rating"><i class="fi-star"></i><i class="fi-star"></i><i class="fi-star"></i><i
+                        class="fi-star"></i><i class="fi-star"></i></span><span class="offer-shopping-info">(98%)</span>
+                </div><div class="right"><i class="fa fi-list"></i></div></div>
+            <div class="additional-info">
+                <ul class="adi-img">
+                    <li>{{HTML::image('img/product.gif','iphone')}}</li>
+                    <li>{{HTML::image('img/macbook.png','iphone')}}</li>
+                    <li>{{HTML::image('img/product.gif','iphone')}}</li>
+                    <li>{{HTML::image('img/macbook.png','iphone')}}</li>
+                </ul>
+                <div class="offer-text-desc">
+                    <h4>MacBook Pro</h4>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aspernatur assumenda, corporis, dolor
+                    dolore enim iste magni quas qui sapiente sed sint, unde! Blanditiis cum et molestias, nobis quibusdam vero.
+                </div>
+                <button class="alert tiny button">Виж Повече</button>
+            </div>
+        </div>
+        <div class="medium-6 small-12 large-3 columns">
+            <div class="offer">
+                <div class="center offer-info-top">Macbook Pro</div>
+                <div class="center offer-label">
+                    <div class="left">-70%</div>
+                    <div class="right-label">234лв</div>
+                </div>
+                <div class="img-holder"><a href="#">{{HTML::image('img/product.gif','iphone')}}</a></div>
+            </div>
+            <div class="offer-info-bt"><div class="left">
+                    <a href="#"><i class="fa fi-shopping-cart size-16"></i><span class="offer-shopping-info">(12)</span></a>
+                    <a href="#"><i class="fa fi-heart size-16"></i><span class="offer-shopping-info">(48)</span></a>
+                    <a href="#"><i class="fa fi-eye large"></i><span class="offer-shopping-info">(312)</span></a>
+                <span class="offer-rating"><i class="fi-star"></i><i class="fi-star"></i><i class="fi-star"></i><i
+                        class="fi-star"></i><i class="fi-star"></i></span><span class="offer-shopping-info">(98%)</span>
+                </div><div class="right"><i class="fa fi-list"></i></div></div>
+            <div class="additional-info">
+                <ul class="adi-img">
+                    <li>{{HTML::image('img/product.gif','iphone')}}</li>
+                    <li>{{HTML::image('img/macbook.png','iphone')}}</li>
+                    <li>{{HTML::image('img/product.gif','iphone')}}</li>
+                    <li>{{HTML::image('img/macbook.png','iphone')}}</li>
+                </ul>
+                <div class="offer-text-desc">
+                    <h4>MacBook Pro</h4>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aspernatur assumenda, corporis, dolor
+                    dolore enim iste magni quas qui sapiente sed sint, unde! Blanditiis cum et molestias, nobis quibusdam vero.
+                </div>
+                <button class="alert tiny button">Виж Повече</button>
+            </div>
+        </div>
+        <div class="medium-6 small-12 large-3 columns">
+            <div class="offer">
+                <div class="center offer-info-top">Macbook Pro</div>
+                <div class="center offer-label">
+                    <div class="left">-70%</div>
+                    <div class="right-label">234лв</div>
+                </div>
+                <div class="img-holder"><a href="#">{{HTML::image('img/product.gif','iphone')}}</a></div>
+            </div>
+            <div class="offer-info-bt"><div class="left">
+                    <a href="#"><i class="fa fi-shopping-cart size-16"></i><span class="offer-shopping-info">(12)</span></a>
+                    <a href="#"><i class="fa fi-heart size-16"></i><span class="offer-shopping-info">(48)</span></a>
+                    <a href="#"><i class="fa fi-eye large"></i><span class="offer-shopping-info">(312)</span></a>
+                <span class="offer-rating"><i class="fi-star"></i><i class="fi-star"></i><i class="fi-star"></i><i
+                        class="fi-star"></i><i class="fi-star"></i></span><span class="offer-shopping-info">(98%)</span>
+                </div><div class="right"><i class="fa fi-list"></i></div></div>
+            <div class="additional-info">
+                <ul class="adi-img">
+                    <li>{{HTML::image('img/product.gif','iphone')}}</li>
+                    <li>{{HTML::image('img/macbook.png','iphone')}}</li>
+                    <li>{{HTML::image('img/product.gif','iphone')}}</li>
+                    <li>{{HTML::image('img/macbook.png','iphone')}}</li>
+                </ul>
+                <div class="offer-text-desc">
+                    <h4>MacBook Pro</h4>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aspernatur assumenda, corporis, dolor
+                    dolore enim iste magni quas qui sapiente sed sint, unde! Blanditiis cum et molestias, nobis quibusdam vero.
+                </div>
+                <button class="alert tiny button">Виж Повече</button>
+            </div>
+        </div>
+        <div class="medium-6 small-12 large-3 columns">
+            <div class="offer">
+                <div class="center offer-info-top">Macbook Pro</div>
+                <div class="center offer-label">
+                    <div class="left">-70%</div>
+                    <div class="right-label">234лв</div>
+                </div>
+                <div class="img-holder"><a href="#">{{HTML::image('img/product.gif','iphone')}}</a></div>
+            </div>
+            <div class="offer-info-bt"><div class="left">
+                    <a href="#"><i class="fa fi-shopping-cart size-16"></i><span class="offer-shopping-info">(12)</span></a>
+                    <a href="#"><i class="fa fi-heart size-16"></i><span class="offer-shopping-info">(48)</span></a>
+                    <a href="#"><i class="fa fi-eye large"></i><span class="offer-shopping-info">(312)</span></a>
+                <span class="offer-rating"><i class="fi-star"></i><i class="fi-star"></i><i class="fi-star"></i><i
+                        class="fi-star"></i><i class="fi-star"></i></span><span class="offer-shopping-info">(98%)</span>
+                </div><div class="right"><i class="fa fi-list"></i></div></div>
+            <div class="additional-info">
+                <ul class="adi-img">
+                    <li>{{HTML::image('img/product.gif','iphone')}}</li>
+                    <li>{{HTML::image('img/macbook.png','iphone')}}</li>
+                    <li>{{HTML::image('img/product.gif','iphone')}}</li>
+                    <li>{{HTML::image('img/macbook.png','iphone')}}</li>
+                </ul>
+                <div class="offer-text-desc">
+                    <h4>MacBook Pro</h4>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aspernatur assumenda, corporis, dolor
+                    dolore enim iste magni quas qui sapiente sed sint, unde! Blanditiis cum et molestias, nobis quibusdam vero.
+                </div>
+                <button class="alert tiny button">Виж Повече</button>
+            </div>
+        </div>
     </div>
 </div>
 </body>
@@ -211,17 +355,23 @@
     $(document).foundation().foundation('joyride', 'start');
     $('.adi-img li img').on('click',function(){
         var src = $(this).context.src;
-        $(this).closest('.columns').find('.offer>.img-holder>img').attr('src',src);
-        console.log($(this).closest('.offer').find('.img-holder'));
+        $(this).closest('.columns').find('.offer>.img-holder>a>img').attr('src',src);
     });
-    $('.fi-list').on('click',function(){
+    $('.offer-info-bt .right .fi-list').on('click',function(){
         var main = $(this).closest('.columns');
             main.find('.offer-info-top').toggle();
             main.find('.additional-info').toggle();
+            main.find('.offer-info-bt').toggleClass('offer-info-bt-open');
+            main.find('.offer-info-bt .offer-rating').toggle();
+            main.find('.offer-info-bt .offer-shopping-info').toggle();
             main.toggleClass('light-up');
-        var that='';
-        if(that =main.siblings().hasClass('light-up')){
-            console.log(main.siblings())
+
+        if(main.siblings().hasClass('light-up')){
+            main.siblings('.light-up').find('.offer-info-top').show();
+            main.siblings('.light-up').find('.additional-info').hide();
+            main.siblings('.light-up').find('.offer-info-bt').toggleClass('offer-info-bt-open');
+            main.siblings('.light-up').find('.offer-info-bt .offer-shopping-info').toggle();
+            main.siblings('.light-up').find('.offer-info-bt .offer-rating').toggle();
         }
         main.siblings().removeClass('light-up');
         $('.additional-info li').on('click',function(){
@@ -229,5 +379,6 @@
                    .siblings().css('border','none');
         })
     })
+
 </script>
 </html>

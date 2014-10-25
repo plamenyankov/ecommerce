@@ -257,7 +257,7 @@ legend {
  * 2. Correct font size not being inherited in all browsers.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
-button, .slider-btn, .search-btn,
+button, .slider-btn, .search-btn, .additional-info button,
 input,
 select,
 textarea {
@@ -273,7 +273,7 @@ textarea {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-button, .slider-btn, .search-btn,
+button, .slider-btn, .search-btn, .additional-info button,
 input {
   line-height: normal;
 }
@@ -284,7 +284,7 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-button, .slider-btn, .search-btn,
+button, .slider-btn, .search-btn, .additional-info button,
 select {
   text-transform: none;
 }
@@ -296,7 +296,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-button, .slider-btn, .search-btn,
+button, .slider-btn, .search-btn, .additional-info button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
@@ -352,7 +352,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-button::-moz-focus-inner, .slider-btn::-moz-focus-inner, .search-btn::-moz-focus-inner,
+button::-moz-focus-inner, .slider-btn::-moz-focus-inner, .search-btn::-moz-focus-inner, .additional-info button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
@@ -3048,7 +3048,7 @@ select {
   width: 100%;
 }
 
-button, .slider-btn, .search-btn, .button {
+button, .slider-btn, .search-btn, .additional-info button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
@@ -3276,13 +3276,13 @@ button.disabled.info:hover, .disabled.info.slider-btn:hover, .disabled.info.sear
   background-color: #a0d3e8;
 }
 
-button::-moz-focus-inner, .slider-btn::-moz-focus-inner, .search-btn::-moz-focus-inner {
+button::-moz-focus-inner, .slider-btn::-moz-focus-inner, .search-btn::-moz-focus-inner, .additional-info button::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
 @media only screen and (min-width: 40.063em) {
-  button, .slider-btn, .search-btn, .button {
+  button, .slider-btn, .search-btn, .additional-info button, .button {
     display: inline-block;
   }
 }
@@ -3897,7 +3897,7 @@ select {
   width: 100%;
 }
 
-button, .slider-btn, .search-btn, .button {
+button, .slider-btn, .search-btn, .additional-info button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
@@ -4125,13 +4125,13 @@ button.disabled.info:hover, .disabled.info.slider-btn:hover, .disabled.info.sear
   background-color: #a0d3e8;
 }
 
-button::-moz-focus-inner, .slider-btn::-moz-focus-inner, .search-btn::-moz-focus-inner {
+button::-moz-focus-inner, .slider-btn::-moz-focus-inner, .search-btn::-moz-focus-inner, .additional-info button::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
 @media only screen and (min-width: 40.063em) {
-  button, .slider-btn, .search-btn, .button {
+  button, .slider-btn, .search-btn, .additional-info button, .button {
     display: inline-block;
   }
 }
@@ -5434,7 +5434,7 @@ select {
   width: 100%;
 }
 
-button, .slider-btn, .search-btn, .button {
+button, .slider-btn, .search-btn, .additional-info button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
@@ -5662,13 +5662,13 @@ button.disabled.info:hover, .disabled.info.slider-btn:hover, .disabled.info.sear
   background-color: #a0d3e8;
 }
 
-button::-moz-focus-inner, .slider-btn::-moz-focus-inner, .search-btn::-moz-focus-inner {
+button::-moz-focus-inner, .slider-btn::-moz-focus-inner, .search-btn::-moz-focus-inner, .additional-info button::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
 @media only screen and (min-width: 40.063em) {
-  button, .slider-btn, .search-btn, .button {
+  button, .slider-btn, .search-btn, .additional-info button, .button {
     display: inline-block;
   }
 }
@@ -9512,7 +9512,7 @@ select {
   width: 100%;
 }
 
-button, .slider-btn, .search-btn, .button {
+button, .slider-btn, .search-btn, .additional-info button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
@@ -9740,13 +9740,13 @@ button.disabled.info:hover, .disabled.info.slider-btn:hover, .disabled.info.sear
   background-color: #a0d3e8;
 }
 
-button::-moz-focus-inner, .slider-btn::-moz-focus-inner, .search-btn::-moz-focus-inner {
+button::-moz-focus-inner, .slider-btn::-moz-focus-inner, .search-btn::-moz-focus-inner, .additional-info button::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
 @media only screen and (min-width: 40.063em) {
-  button, .slider-btn, .search-btn, .button {
+  button, .slider-btn, .search-btn, .additional-info button, .button {
     display: inline-block;
   }
 }
@@ -14856,7 +14856,7 @@ select {
   width: 100%;
 }
 
-button, .slider-btn, .search-btn, .button {
+button, .slider-btn, .search-btn, .additional-info button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
@@ -15084,13 +15084,13 @@ button.disabled.info:hover, .disabled.info.slider-btn:hover, .disabled.info.sear
   background-color: #a0d3e8;
 }
 
-button::-moz-focus-inner, .slider-btn::-moz-focus-inner, .search-btn::-moz-focus-inner {
+button::-moz-focus-inner, .slider-btn::-moz-focus-inner, .search-btn::-moz-focus-inner, .additional-info button::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
 @media only screen and (min-width: 40.063em) {
-  button, .slider-btn, .search-btn, .button {
+  button, .slider-btn, .search-btn, .additional-info button, .button {
     display: inline-block;
   }
 }
@@ -15342,7 +15342,7 @@ select {
   width: 100%;
 }
 
-button, .slider-btn, .search-btn, .button {
+button, .slider-btn, .search-btn, .additional-info button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
@@ -15570,13 +15570,13 @@ button.disabled.info:hover, .disabled.info.slider-btn:hover, .disabled.info.sear
   background-color: #a0d3e8;
 }
 
-button::-moz-focus-inner, .slider-btn::-moz-focus-inner, .search-btn::-moz-focus-inner {
+button::-moz-focus-inner, .slider-btn::-moz-focus-inner, .search-btn::-moz-focus-inner, .additional-info button::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
 @media only screen and (min-width: 40.063em) {
-  button, .slider-btn, .search-btn, .button {
+  button, .slider-btn, .search-btn, .additional-info button, .button {
     display: inline-block;
   }
 }
@@ -19462,7 +19462,6 @@ body {
 }
 
 .offer {
-  border-right: 1px solid #ebebeb;
   padding: 10px;
   position: relative;
   min-height: 12.5rem;
@@ -19472,10 +19471,35 @@ body {
   max-height: 128px;
 }
 
-.additional-info {
+.offer-shopping-info {
+  font-size: 10px;
+  vertical-align: super;
+  margin: 0 3px;
   display: none;
 }
+
+.offer-rating {
+  display: none;
+  padding: 0 0 0 0.3125rem;
+  color: #85d3f2;
+}
+
+.additional-info {
+  margin-bottom: 15px;
+  display: none;
+  background-color: #ebebeb;
+}
+.additional-info .slider-btn, .additional-info .search-btn, .additional-info button {
+  margin: 5px 0;
+  float: right;
+  display: inherit;
+}
+.additional-info ul {
+  margin-bottom: 0;
+}
 .additional-info ul li {
+  margin: 5px auto 0px;
+  background-color: #fff;
   list-style: none;
   display: inline-flex;
 }
@@ -19484,6 +19508,13 @@ body {
   width: 3.4375rem;
   max-height: 35px;
   padding: 3px;
+}
+.additional-info ul li img:hover {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.65);
+}
+.additional-info .offer-text-desc {
+  padding: 0 0.9375rem 0.9375rem 0.9375rem;
+  font-size: 0.875rem;
 }
 
 .row-offers {
@@ -19556,7 +19587,7 @@ body {
   background-color: #3F6472;
 }
 
-.offer-info-bt {
+.offer-info-bt, .offer-info-bt-open {
   position: relative;
   bottom: 0%;
   width: 100%;
@@ -19567,18 +19598,22 @@ body {
   font-family: "Minion pro";
   padding: 0 3px;
 }
-.offer-info-bt a {
+.offer-info-bt a, .offer-info-bt-open a {
   margin-right: 3px;
   color: #909090;
 }
-.offer-info-bt .right {
+.offer-info-bt .right, .offer-info-bt-open .right {
   color: #3F6472;
   font-size: 1.125rem;
   margin-right: 5px;
 }
-.offer-info-bt .left a {
+.offer-info-bt .left a, .offer-info-bt-open .left a {
   font-size: 1.125rem;
   color: #3F6472;
+}
+
+.offer-info-bt-open {
+  background: none;
 }
 
 .offer-info-top {
